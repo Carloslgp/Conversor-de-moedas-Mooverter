@@ -1,0 +1,16 @@
+function converter() {
+    let moedaBase = document.querySelector("#select_base").value
+    let converterParaMoeda = document.querySelector("#select_converter_para").value
+    let valorBase = document.querySelector("#inputValorBase").value
+    fetch(`https://api.frankfurter.dev/v1/latest?base=${moedaBase}&symbols=${converterParaMoeda}`)
+    .then((resp) => resp.json())
+    .then((data) => {
+        const quantiaConvertida = (valorBase * data.rates[converterParaMoeda]).toFixed(2);
+        console.log(`${valorBase} ${moedaBase} = ${quantiaConvertida} ${converterParaMoeda}`);
+    });
+}
+
+
+
+
+

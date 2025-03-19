@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mooverter</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <select name="moeda_base" id="select_base">
+        <option value="BRL">Reais</option>
+        <option value="EUR">Euros</option>
+        <option value="USD">Dólares</option>
+    </select>
+    <input type="number" name="valorBase" id="inputValorBase">
+
+    <select name="para_esta_moeda" id="select_converter_para">
+        <option value="USD">Dólares</option>
+        <option value="BRL">Reais</option>
+        <option value="EUR">Euros</option>
+    </select>
+    <button onclick="converter()">clique aqui para converter</button>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
