@@ -21,3 +21,18 @@ body{
     margin: 50px;
 }
 
+.select_moeada{
+    width: 10vw;
+    height: 6vh;
+    border-radius: 4px;
+    margin: 0px 10px;
+}
+.input_valor{
+    height: 5vh;
+    width: 10vw;
+    border-radius: 4px;
+    margin: 10px;
+}
+.botao_conversor{
+    margin: 10px;
+}
