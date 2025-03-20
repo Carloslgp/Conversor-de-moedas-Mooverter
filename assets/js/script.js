@@ -1,4 +1,6 @@
 function converter() {
+    const audio = new Audio('assets/sound/moosound.mp3')
+    audio.play()
     let moedaBase = document.querySelector("#select_base").value
     let converterParaMoeda = document.querySelector("#select_converter_para").value
     let valorBase = document.querySelector("#inputValorBase").value
@@ -9,6 +11,8 @@ function converter() {
         console.log(`${valorBase} ${moedaBase} = ${quantiaConvertida} ${converterParaMoeda}`);
     });
 }
+
+
 
 
 

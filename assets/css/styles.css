@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background-image: url('../img/moocow.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cabecalho{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5vw;
+}
+.conversor{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
