@@ -14,11 +14,10 @@ body{
     margin-left: 5vw;
 }
 .conversor{
-    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px;
+    margin-top: 40vh;
 }
 
 .select_moeada{
@@ -26,6 +25,7 @@ body{
     height: 6vh;
     border-radius: 4px;
     margin: 0px 10px;
+    background-color:gray;
 }
 .input_valor{
     height: 5vh;
@@ -35,4 +35,43 @@ body{
 }
 .botao_conversor{
     margin: 10px;
+    height: 6vh;
+    width: 11vw;
+    background-color: gray;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid wheat;
+}
+.div_resultado{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+.paragrafo_resultado{
+    background-color: gray;
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid;
+    margin: 5px;
+}
+.paragrafo_texto_resultado{
+    margin: 0;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+.div_resultado_interna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
 }
